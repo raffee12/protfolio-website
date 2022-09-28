@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Design Sytem</title>
+  </head>
+  <body>
+    <header class="priamray-header bg-neutral-3000">
+      <div class="container">
+        <div class="logo">
+          <h1>Edus<span>Web</span></h1>
+        </div>
+        <button class="mobile-nav-toggle" aria-controls="menu" id="">
+          <span class="visually-hidden">Menu</span>
+          <i class="fa-solid fa-bars open-hamburger" aria-hidden="true"></i>
+          <i class="fa-solid fa-x close-hamburger" aria-hidden="true"></i>
+        </button>
+        <nav class="primary-navigation" id="menu">
+          <ul role="list" class="list-items">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#Enroll">Enroll</a></li>
+          </ul>
+        </nav>
+        <div class="cta">
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <!-- <div class="btn">
+        Hire Me
+            <i class="fa-solid fa-arrow-right"></i>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="showcase bg-neutral-2000 padding-block-700" >
+      <div class="container">
+        <div class="even-columns">
+          <div class="flow">
+            <h1 class="fs-primary-heading fw-bold">
+           I am <span>Rafiza</span>   A web developer
+            </h1>
+            <p class="para">
+             I have been web developing for a while.<br> I find true potential on it. 
+            </p>
+
+            <div class="btn">
+        Hire Me
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="showcase-img">
+            <img
+              src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2Vic2l0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" 
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="boxes padding-block-700 bg-neutral-1000" id="Skills">
+      <div class="container">
+        <div class="title">
+          <p class="extra">Experience</p>
+
+          <h2 class="fs-secondary-heading fw-semi-bold">
+            What I know So Far
+          </h2>
+          <p class="text">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+       
+          <ul class="slider">
+            <li>
+              <img src="https://media.istockphoto.com/photos/stylized-3d-html-icon-design-picture-id1413514774?b=1&k=20&m=1413514774&s=170667a&w=0&h=foq6AhCN1T9QGtvFCn_6qYv4k6ti87YnD43D8QYA6ak=" alt="">
+              <div class="slider-content">
+                <h3 class="fw-bold">HTML</h3>
+                             <p data-width="wide">Web Designing without <span>HTML</span> is unthinkable. It is the foundation of a website  </p>
+              </div>
+            </li>
+            <li>
+              <img src="https://media.istockphoto.com/photos/stylized-3d-css-icon-design-picture-id1413514596?b=1&k=20&m=1413514596&s=170667a&w=0&h=V2lBCl6D3kbDBfCXQGUuCqgNaOJ3OtEYJCzgchSZ9ik=" alt="">
+              <div class="slider-content">
+                <h3 class="fw-bold">CSS</h3>
+                             <p data-width="wide">
+                              CSS is cascading Style Sheet. Basically it is used for making website delicate
+                                </p>
+              </div>
+            </li>
+
+       
+      
+            <li>
+              <img src="https://media.istockphoto.com/photos/stylized-3d-javascript-icon-design-picture-id1413514720?b=1&k=20&m=1413514720&s=170667a&w=0&h=7mr5HO1wFZGIVCdHdhNLqWqLxZxyWeNGZ_rXxennMEI=" alt="">
+              <div class="slider-content">
+                <h3 class="fw-bold">JAVASCRIPT</h3>
+                             <p data-width="wide">Javascript is functional programming language.It allows for interactive things </p>
+              </div>
+            </li>
+            <li>
+              <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8amF2YXNjcmlwdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+              <div class="slider-content">
+                <h3 class="fw-bold">React JS</h3>
+                             <p data-width="wide">React is a JS framework. I am enjoying it .Kinda have dream with keeping up with this  </p>
+              </div>
+            </li>
+          </ul>
+  
+      </div>
+    </section>
+                       
+    <section class="reviews padding-block-700 bg-neutral-2000" id="About Us">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1661961110372-8a7682543120?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div>
+            <p>ABOUT ME </p>
+            <!-- <div class="flow"> -->
+            <div class="flow">
+              <h1 class="review-title fs-primary-heading fw-bold">
+                Over 2 Years in <span>web designing </span> career
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae nulla officia aut odit ea repellendus cumque officiis
+                sit facere veritatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-details padding-block-700 bg-neutral-900" id="Testimonials">
+      <div class="container">
+        <div class="detail">
+    
+          <p class="details-title">Aplied Course</p>
+          <h2 class="fs-secondary-heading fw-semi-bold">
+       Why should you choose me?
+          </h2>
+        </div>
+        <div class="card-componants">
+          <ul role="componants">
+            <li>
+              <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                width="300"
+              />
+              <div class="li-content">
+                <span class="text-primary-400">This more</span>
+                <h3 class="font-weight text-primary-400">
+                   Web Developer
+                </h3>
+                <div class="stars">
+                  <p>Html Css</p>
+                  <div class="star-img">
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <span class="price">$567</span>
+        
+            </div>
+            </li>
+            <li>
+              <img
+                src="https://images.unsplash.com/photo-1579820010410-c10411aaaa88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGphdmFzY3JpcHR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                width="300"
+              />
+              <div class="li-content">
+                <span class="text-primary-400">This more</span>
+                <h3 class="font-weight text-primary-400">
+          JS Developer
+                </h3>
+                <div class="stars">
+                  <p>Javascript website</p>
+                  <div class="star-img">
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <span class="price">$567</span>
+              </div>
+            </li>
+            <li>
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""
+                width="300"
+              />
+              <div class="li-content">
+                <span class="text-primary-400">This more</span>
+                <h3 class="font-weight text-primary-400">
+                  Java Programming Machine
+                </h3>
+                <div class="stars">
+                  <p>Jet leg learning</p>
+                  <div class="star-img">
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                    <img
+                      src="https://img.icons8.com/external-kmg-design-flat-kmg-design/2x/external-star-weather-kmg-design-flat-kmg-design.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <span class="price">$567</span>
+              </div>
+            </li>
+          </ul>
+          <a href="#">
+            <div class="btn" style="margin-top: 30px">Enroll Us</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials padding-block-700 bg-neutral-4000" id="Enroll">
+      <div class="container">
+        <div class="even-columns">
+          <div class="title">
+            <p>Unleash your dream</p>
+            <h2 class="fs-secondary-heading fw-semi-bold">
+              Get Your Job Done
+            </h2>
+          </div>
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+              dolorem. Saepe beatae inventore earum provident molestias quas
+              dicta quis ipsa voluptatem itaque a, dolorem eaque asperiores! Quo
+              adipisci dolorem ipsa!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="padding-block-700 bg-neutral-200 text-neutral-2000">
+      <div class="container">
+        <div>
+          <h1 class="logo">Follow Us</h1>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+          <ul role="list-items " aria-label="Social-Links">
+            <li><a aria-label="facebook" href="#"></a></li>
+            <li><a aria-label="instagram" href="#"></a></li>
+            <li><a aria-label="youtube" href="#"></a></li>
+            <li><a aria-label="pinterest" href="#"></a></li>
+            <li><a aria-label="twitter" href="#"></a></li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav">
+          <ul role="footer-nav">
+
+   
+
+           <div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Buy Us</a></li>
+            <li><a href="#">Careers</a></li>
+           </div>
+     
+        </nav>
+
+        <div class="input-wrapper">
+          <input type="email" placeholder="Email" />
+
+          <div class="btn" data-type="inverted">Submit</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+  <script src="main.js"></script>
+</html>
